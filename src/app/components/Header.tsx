@@ -112,7 +112,7 @@ export default function Header({ activeItem, setOpen, open }: Props) {
 							</div>
 						</div>
 						{openSidebar && (
-							<div className="absolute bottom-8 right-5 z-[9999999]">
+							<div className="absolute bottom-12 right-5 z-[9999999]">
 								<ModeToggle />
 							</div>
 						)}
