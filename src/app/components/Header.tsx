@@ -96,7 +96,7 @@ export default function Header({ activeItem, setOpen, open }: Props) {
 						variants={container}
 						initial={"hidden"}
 						animate={"visible"}
-						className="fixed w-full h-screen top-0 left-0 z-[99999] dark:bg-[unset] bg-[#00000024]"
+						className="fixed overflow-y-scroll w-full h-screen top-0 left-0 z-[99999] dark:bg-[unset] bg-[#00000024]"
 						onClick={handleClose}
 						id="screen">
 						<div className="w-[70%] max-800px:w-[90%] fixed h-screen z-[999999] bg-white dark:bg-slate-900 dark:bg-opacity-95 top-0 right-0">
