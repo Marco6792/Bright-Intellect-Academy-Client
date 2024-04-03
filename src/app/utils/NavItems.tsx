@@ -47,7 +47,7 @@ export default function NavItems({ activeItem, isMobile, open, openSidebar }: Pr
 											activeItem === index
 												? "dark:text-[#37a39a] text-[crimson] "
 												: "dark:text-white text-black hover:dark:text-[#37a39a] transition duration-300 hover:text-[crimson]"
-										} text-[18px] block p-4 font-Poppins font-[500] `}>
+										} text-[18px] block p-6 font-Poppins font-[500] `}>
 										{item.name}
 									</span>
 								</Link>
